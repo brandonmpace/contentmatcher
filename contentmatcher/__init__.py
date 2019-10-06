@@ -32,7 +32,4 @@ __status__ = "Development"
 __version__ = "0.0.1"
 
 
-import logging
-
-
-logger = logging.getLogger(__name__)
+from .classes import Pattern
